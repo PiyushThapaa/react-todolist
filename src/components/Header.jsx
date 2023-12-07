@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { context, server } from '../main'
 import axios from 'axios'
 import toast from 'react-hot-toast'
-import "../styles/Header.css"
+import "../styles/header.css"
 
 const Header = () => {
   const {isAuthenticated,setIsAuthenticated,loading,setLoading} = useContext(context)
