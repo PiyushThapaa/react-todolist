@@ -1,0 +1,38 @@
+#name,#email,#password{
+    width: 60%;
+    height: 34px;
+    font-size: 17px;
+    margin-top: 31px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 27px;
+}
+.btn{
+    margin-top: 31px;
+    width: 74px;
+    height: 39px;
+    font-size: 20px;
+    color: white;
+    background: navy;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(6, 6, 223);
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 14px;
+}
+.auth-link{
+    text-decoration: none;
+    color: navy;
+}
+form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
