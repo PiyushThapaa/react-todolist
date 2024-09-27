@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { useState } from 'react'
 
-export const server = "http://todolist-server-env.eba-fchjh9gb.ap-south-1.elasticbeanstalk.com/api/v1"
+export const server = "https://todolistserver-w47eyyk6.b4a.run/api/v1"
 
 export const context = createContext({isAuthenticated:false})
 
